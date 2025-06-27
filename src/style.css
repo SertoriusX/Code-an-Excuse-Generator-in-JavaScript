@@ -1,5 +1,30 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+.excuse-body {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    background-color: antiquewhite; /* Soft ivory */
+    height: 400px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 
+                0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
 
-body{
-    background: white;
+.text-body {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #333; /* Darker text for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    width: 100%;
+    border-bottom: 2px solid #ccc; /* Softer gray */
+    color: #2c3e50; /* Deep blue-gray for modern look */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
